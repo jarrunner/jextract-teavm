@@ -1,4 +1,4 @@
-package littlejlib.jextract_teavm;
+package jarrunner.jextract_teavm;
 
 import module java.base;
 import picocli.CommandLine;

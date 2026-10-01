@@ -1,4 +1,4 @@
-package littlejlib.jextract_teavm;
+package jarrunner.jextract_teavm;
 
 import org.openjdk.jextract.*;
 import org.openjdk.jextract.Declaration.Scoped;
