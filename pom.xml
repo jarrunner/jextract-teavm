@@ -3,9 +3,24 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.jarrunner</groupId>
-  <artifactId>jextract_teavm</artifactId>
-  <version>1.0</version>
+  <artifactId>jextract-teavm</artifactId>
+  <version>1.0.0</version>
   <packaging>jar</packaging>
+  <name>jextract-teavm</name>
+  <description>TeaVM @Import bindings generated from real C headers, using jextract's own libclang front end: every type, width, struct offset and constant comes from clang, and an optional C file of static asserts lets a second compiler check them.</description>
+  <url>https://github.com/jarrunner/jextract-teavm</url>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>scm:git:git://github.com/jarrunner/jextract-teavm.git</connection>
+    <url>https://github.com/jarrunner/jextract-teavm</url>
+  </scm>
 
   <properties>
     <maven.compiler.release>25</maven.compiler.release>
