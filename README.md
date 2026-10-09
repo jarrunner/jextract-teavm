@@ -1,4 +1,9 @@
-# jextract-teavm
+# jextract-teavm (moved)
+
+**This repository is archived.** The generator now lives in a fork of jextract: [jarrunner/jextract](https://github.com/jarrunner/jextract/tree/teavm/teavm), branch `teavm`, directory `teavm/`. There it is its own module, built together with jextract into one runtime image (no hand-installed jextract jar, no `--add-opens`), and released as ready-to-run images for Linux and Windows (tags `teavm-v*`). The wide-string fix to jextract that used to be `upstream-fix/` is a commit on that branch.
+
+---
+
 
 TeaVM `@Import` bindings generated from real C headers, using jextract's own libclang front end. Its main user is [jr](https://github.com/jarrunner/jr), which generates its Win32 and POSIX bindings with it (`jr/bindings/windows/gen-bindings.cmd`, `jr/bindings/posix/gen-bindings-posix.sh`).
 
